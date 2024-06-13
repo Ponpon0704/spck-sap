@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: seagreen;
+}
+
+.Login{
+    width: 420px;
+    background: aqua;
+
+}
+
+.d-flex{
+    display: flex;
+}
+
+.centering{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.error{
+    color: red;
+    font-size: small;
+}
+
